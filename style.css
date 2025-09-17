@@ -1,0 +1,12 @@
+/********************************************
+* Copyright (c) 2025 Shun/翔海 (@shun4midx) *
+* Project: CompMath Notes as a Website     *
+* File Type: CSS file                      *
+* File: style.css                          *
+****************************************** */
+
+pre {
+  white-space: pre;      /* don't wrap long lines */
+  overflow-x: auto;      /* add horizontal scrollbar */
+  max-width: 100%;       /* keep within the page */
+}
