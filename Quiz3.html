@@ -7581,7 +7581,7 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 <h3 id="Solution-2">Solution 2<a class="anchor-link" href="#Solution-2">¶</a></h3><p>Consider the "bad" root, where we choose "$-$" in $\pm$ for the root.</p>
 <p>We end up evaluating $$x = \frac{-b - \sqrt{b^2 - 4}}{2}$$</p>
 <p>The step with the largest condition number is when we do the minus, as shown below:
-$$\kappa = \frac{|\Delta\text{output}|}{|\Delta{input}|} \cdot \frac{|\text{input}|}{|\text{output}|} = 1 \cdot \frac{|-\sqrt{b^2 - 4}|}{|-b - \sqrt{b^2 - 4|}} = \frac{10^4 - 10^{-4}}{2 (10^{-4})} \approx 10^7$$</p>
+$$\kappa = \frac{|\Delta\text{output}|}{|\Delta{\text{input}}|} \cdot \frac{|\text{input}|}{|\text{output}|} = 1 \cdot \frac{|-\sqrt{b^2 - 4}|}{|-b - \sqrt{b^2 - 4|}} = \frac{10^4 - 10^{-4}}{2 (10^{-4})} \approx 10^7$$</p>
 <p>Hence, we lose around $\boxed{7}$ digits of accuracy.</p>
 </div>
 </div>
