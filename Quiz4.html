@@ -4,7 +4,7 @@
 <head><meta charset="utf-8"/>
 <link rel="stylesheet" href="style.css">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Shun_9-03</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Quiz4</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7526,29 +7526,87 @@ a.anchor-link {
 </style>
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="false" data-jp-theme-name="JupyterLab Dark">
-<main><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="mf">0.1</span><span class="o">+</span><span class="mf">0.2</span>
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h1 id="Quiz-4-(09/24)">Quiz 4 (09/24)<a class="anchor-link" href="#Quiz-4-(09/24)">¶</a></h1>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0.30000000000000004</pre>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Question-1"><strong>Question 1</strong><a class="anchor-link" href="#Question-1">¶</a></h3><p>Perform LU factorization for</p>
+$$
+\begin{bmatrix}
+    -2 &amp; 4 &amp; 8 \\
+    3 &amp; 9 &amp; 27 \\
+    -1 &amp; 1 &amp; -1
+\end{bmatrix}
+$$
 </div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Solution-1">Solution 1<a class="anchor-link" href="#Solution-1">¶</a></h3><p>This is a direct application of the LU factorization algorithm.</p>
+$$
+\begin{bmatrix}
+-2 &amp; 4 &amp; 8 \\
+3 &amp; 9 &amp; 27 \\
+-1 &amp; 1 &amp; -1
+\end{bmatrix}
+
+= \begin{bmatrix}
+1 &amp; 0 &amp; 0 \\
+-\frac{3}{2} &amp; 1 &amp; 0 \\
+\frac{1}{2} &amp; 0 &amp; 1
+\end{bmatrix}
+
+\begin{bmatrix}
+-2 &amp; 4 &amp; 8 \\
+0 &amp; 15 &amp; 39 \\
+0 &amp; -1 &amp; -5
+\end{bmatrix}
+
+= \boxed{
+    \begin{bmatrix}
+    1 &amp; 0 &amp; 0 \\
+    -\frac{3}{2} &amp; 1 &amp; 0 \\
+    -\frac{1}{2} &amp; -\frac{1}{15} &amp; 1
+    \end{bmatrix}
+
+    \begin{bmatrix}
+    -2 &amp; 4 &amp; 8 \\
+    0 &amp; 15 &amp; 39 \\
+    0 &amp; 0 &amp; -\frac{12}{5}
+    \end{bmatrix}
+}
+$$
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Double-Check-1">Double Check 1<a class="anchor-link" href="#Double-Check-1">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7557,81 +7615,19 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="mf">0.125</span><span class="o">+</span><span class="mf">0.125</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0.25</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">struct</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 
-<span class="c1"># Convert float to binary IEEE754 representation (float64)</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">float_to_binary64</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
-    <span class="p">[</span><span class="n">d</span><span class="p">]</span> <span class="o">=</span> <span class="n">struct</span><span class="o">.</span><span class="n">unpack</span><span class="p">(</span><span class="s2">"&gt;Q"</span><span class="p">,</span> <span class="n">struct</span><span class="o">.</span><span class="n">pack</span><span class="p">(</span><span class="s2">"&gt;d"</span><span class="p">,</span> <span class="n">value</span><span class="p">))</span>
-    <span class="k">return</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">d</span><span class="si">:</span><span class="s2">064b</span><span class="si">}</span><span class="s2">"</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.2</span> <span class="o">+</span> <span class="mf">0.1</span><span class="p">]</span>
+<span class="n">L</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> 
+              <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> 
+              <span class="p">[</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="mi">15</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
+<span class="n">U</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">],</span> 
+              <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">39</span><span class="p">],</span> 
+              <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">12</span><span class="o">/</span><span class="mi">5</span><span class="p">]])</span>
 
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Number: </span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"As float64:"</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Binary64 :"</span><span class="p">,</span> <span class="n">float_to_binary64</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">"Exact stored value:"</span><span class="p">,</span> <span class="nb">format</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="s1">'.60f'</span><span class="p">))</span>
-
-<span class="c1"># Floating-point inaccuracy demo</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Check 0.1 + 0.2 == 0.3 ?"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span> <span class="o">==</span> <span class="mf">0.3</span><span class="p">)</span>   <span class="c1"># False due to inaccuracy</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"0.1 + 0.2 ="</span><span class="p">,</span> <span class="mf">0.1</span> <span class="o">+</span> <span class="mf">0.2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"0.3 ="</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"LU = </span><span class="si">{</span><span class="n">L</span><span class="w"> </span><span class="o">@</span><span class="w"> </span><span class="n">U</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7644,38 +7640,59 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>
-Number: 1
-As float64: 1.0
-Binary64 : 0011111111110000000000000000000000000000000000000000000000000000
-Exact stored value: 1.000000000000000000000000000000000000000000000000000000000000
-
-Number: 0.1
-As float64: 0.1
-Binary64 : 0011111110111001100110011001100110011001100110011001100110011010
-Exact stored value: 0.100000000000000005551115123125782702118158340454101562500000
-
-Number: 0.2
-As float64: 0.2
-Binary64 : 0011111111001001100110011001100110011001100110011001100110011010
-Exact stored value: 0.200000000000000011102230246251565404236316680908203125000000
-
-Number: 0.3
-As float64: 0.3
-Binary64 : 0011111111010011001100110011001100110011001100110011001100110011
-Exact stored value: 0.299999999999999988897769753748434595763683319091796875000000
-
-Number: 0.30000000000000004
-As float64: 0.30000000000000004
-Binary64 : 0011111111010011001100110011001100110011001100110011001100110100
-Exact stored value: 0.300000000000000044408920985006261616945266723632812500000000
-
-Check 0.1 + 0.2 == 0.3 ?
-False
-0.1 + 0.2 = 0.30000000000000004
-0.3 = 0.3
+<pre>LU = [[-2.  4.  8.]
+ [ 3.  9. 27.]
+ [-1.  1. -1.]]
 </pre>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Question-2"><strong>Question 2</strong><a class="anchor-link" href="#Question-2">¶</a></h3><p>There is a polynomial $P$ of degree $\leq 2$ that goes through the following points:</p>
+$$
+(-2, 5),\quad (3, -7),\quad (-1, 1)
+$$<p>Evaluate $P(5)$.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Solution-2">Solution 2<a class="anchor-link" href="#Solution-2">¶</a></h3><p>We consider Lagrange interpolation, so we have
+$$
+P(x) = \frac{(x - 3)(x - (-1))}{(-2 - 3)(-2 - (-1))} \cdot 5 + \frac{(x - (-2))(x - (-1))}{(3 -(-2))(3 - (-1))} \cdot (-7) + \frac{(x - (-2))(x - 3)}{(-1 - (-2))(-1 - 3)} \cdot 1
+$$</p>
+<p>Hence,
+$$
+\begin{align*}
+    P(5) &amp;= \frac{(5 - 3)(5 - (-1))}{(-2 - 3)(-2 - (-1))} \cdot 5 + \frac{(5 - (-2))(5 - (-1))}{(3 -(-2))(3 - (-1))} \cdot (-7) + \frac{(5 - (-2))(5 - 3)}{(-1 - (-2))(-1 - 3)} \cdot 1 \\
+    &amp;= \frac{2(6)}{-5(-1)} \cdot 5 + \frac{7(6)}{5(4)} \cdot (-7) + \frac{7(2)}{1(-4)} \cdot 1 \\
+    &amp;= 12 - \frac{147}{10} - \frac{7}{2} \\
+    &amp;= \boxed{-6.2}
+\end{align*}
+$$</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Double-Check-2">Double Check 2<a class="anchor-link" href="#Double-Check-2">¶</a></h3>
 </div>
 </div>
 </div>
@@ -7684,15 +7701,18 @@ False
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">xs</span><span class="o">=</span><span class="p">[]</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="o">+</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">):</span>
-  <span class="n">xs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">xs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span> <span class="n">xs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="mi">4</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="mf">4.0</span><span class="p">),</span> <span class="s1">'.60f'</span><span class="p">))</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">scipy.interpolate</span><span class="w"> </span><span class="kn">import</span> <span class="n">lagrange</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+
+<span class="n">poly</span> <span class="o">=</span> <span class="n">lagrange</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"P(5) = </span><span class="si">{</span><span class="n">poly</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7705,298 +7725,42 @@ False
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>4.000000000000003
-False
-4.000000000000000000000000000000000000000000000000000000000000
+<pre>P(5) = -6.200000000000002
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="mf">0.1</span><span class="p">),</span> <span class="s1">'.60f'</span><span class="p">),</span> <span class="s2">"is supposed to be"</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xs</span><span class="p">:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="s1">'.60f'</span><span class="p">),</span> <span class="s2">"is supposed to be"</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Question-3"><strong>Question 3</strong><a class="anchor-link" href="#Question-3">¶</a></h3>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>0.100000000000000005551115123125782702118158340454101562500000 is supposed to be 0.1
-1.000000000000000000000000000000000000000000000000000000000000 is supposed to be 1.0
-1.100000000000000088817841970012523233890533447265625000000000 is supposed to be 1.1
-1.200000000000000177635683940025046467781066894531250000000000 is supposed to be 1.2000000000000002
-1.300000000000000266453525910037569701671600341796875000000000 is supposed to be 1.3000000000000003
-1.400000000000000355271367880050092935562133789062500000000000 is supposed to be 1.4000000000000004
-1.500000000000000444089209850062616169452667236328125000000000 is supposed to be 1.5000000000000004
-1.600000000000000532907051820075139403343200683593750000000000 is supposed to be 1.6000000000000005
-1.700000000000000621724893790087662637233734130859375000000000 is supposed to be 1.7000000000000006
-1.800000000000000710542735760100185871124267578125000000000000 is supposed to be 1.8000000000000007
-1.900000000000000799360577730112709105014801025390625000000000 is supposed to be 1.9000000000000008
-2.000000000000000888178419700125232338905334472656250000000000 is supposed to be 2.000000000000001
-2.100000000000000976996261670137755572795867919921875000000000 is supposed to be 2.100000000000001
-2.200000000000001065814103640150278806686401367187500000000000 is supposed to be 2.200000000000001
-2.300000000000001154631945610162802040576934814453125000000000 is supposed to be 2.300000000000001
-2.400000000000001243449787580175325274467468261718750000000000 is supposed to be 2.4000000000000012
-2.500000000000001332267629550187848508358001708984375000000000 is supposed to be 2.5000000000000013
-2.600000000000001421085471520200371742248535156250000000000000 is supposed to be 2.6000000000000014
-2.700000000000001509903313490212894976139068603515625000000000 is supposed to be 2.7000000000000015
-2.800000000000001598721155460225418210029602050781250000000000 is supposed to be 2.8000000000000016
-2.900000000000001687538997430237941443920135498046875000000000 is supposed to be 2.9000000000000017
-3.000000000000001776356839400250464677810668945312500000000000 is supposed to be 3.0000000000000018
-3.100000000000001865174681370262987911701202392578125000000000 is supposed to be 3.100000000000002
-3.200000000000001953992523340275511145591735839843750000000000 is supposed to be 3.200000000000002
-3.300000000000002042810365310288034379482269287109375000000000 is supposed to be 3.300000000000002
-3.400000000000002131628207280300557613372802734375000000000000 is supposed to be 3.400000000000002
-3.500000000000002220446049250313080847263336181640625000000000 is supposed to be 3.500000000000002
-3.600000000000002309263891220325604081153869628906250000000000 is supposed to be 3.6000000000000023
-3.700000000000002398081733190338127315044403076171875000000000 is supposed to be 3.7000000000000024
-3.800000000000002486899575160350650548934936523437500000000000 is supposed to be 3.8000000000000025
-3.900000000000002575717417130363173782825469970703125000000000 is supposed to be 3.9000000000000026
-4.000000000000002664535259100375697016716003417968750000000000 is supposed to be 4.000000000000003
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
-<span class="n">num</span> <span class="o">=</span> <span class="mf">4.0</span>
-<span class="k">while</span> <span class="n">num</span> <span class="o">&lt;=</span> <span class="n">xs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">num</span><span class="p">,</span><span class="s1">'.60f'</span><span class="p">))</span>
-  <span class="n">num</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">nextafter</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span> <span class="c1"># math.inf means you look towards +ve direction, vice versa with -math.inf</span>
-</pre></div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Consider the two functions $f(x) = \frac{1 - \cos^2x}{x}$ and $g(x) = \frac{\sin^2x}{x}$ near evaluated the point $x = 0$ (i.e. in the range $[-10^{-3}, 10^3]$). There happens to be a discrepancy of evaluated values near that point despite being mathematically equivalent. Please explain in a numerical analysis perspective.</p>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>4.000000000000000000000000000000000000000000000000000000000000
-4.000000000000000888178419700125232338905334472656250000000000
-4.000000000000001776356839400250464677810668945312500000000000
-4.000000000000002664535259100375697016716003417968750000000000
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">xs_true</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">xs_true</span><span class="p">:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="s1">'.60f'</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>1.000000000000000000000000000000000000000000000000000000000000
-1.100000000000000088817841970012523233890533447265625000000000
-1.199999999999999955591079014993738383054733276367187500000000
-1.300000000000000044408920985006261616945266723632812500000000
-1.399999999999999911182158029987476766109466552734375000000000
-1.500000000000000000000000000000000000000000000000000000000000
-1.600000000000000088817841970012523233890533447265625000000000
-1.700000000000000177635683940025046467781066894531250000000000
-1.800000000000000044408920985006261616945266723632812500000000
-1.899999999999999911182158029987476766109466552734375000000000
-2.000000000000000000000000000000000000000000000000000000000000
-2.100000000000000088817841970012523233890533447265625000000000
-2.200000000000000177635683940025046467781066894531250000000000
-2.299999999999999822364316059974953532218933105468750000000000
-2.400000000000000355271367880050092935562133789062500000000000
-2.500000000000000000000000000000000000000000000000000000000000
-2.600000000000000088817841970012523233890533447265625000000000
-2.700000000000000177635683940025046467781066894531250000000000
-2.799999999999999822364316059974953532218933105468750000000000
-2.900000000000000355271367880050092935562133789062500000000000
-3.000000000000000000000000000000000000000000000000000000000000
-3.100000000000000088817841970012523233890533447265625000000000
-3.200000000000000177635683940025046467781066894531250000000000
-3.300000000000000266453525910037569701671600341796875000000000
-3.400000000000000355271367880050092935562133789062500000000000
-3.500000000000000000000000000000000000000000000000000000000000
-3.600000000000000088817841970012523233890533447265625000000000
-3.700000000000000177635683940025046467781066894531250000000000
-3.800000000000000266453525910037569701671600341796875000000000
-3.900000000000000355271367880050092935562133789062500000000000
-4.000000000000000000000000000000000000000000000000000000000000
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">decimal</span>
-
-<span class="c1"># Set precision high to see the true value</span>
-<span class="n">decimal</span><span class="o">.</span><span class="n">getcontext</span><span class="p">()</span><span class="o">.</span><span class="n">prec</span> <span class="o">=</span> <span class="mi">25</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">decimal</span><span class="o">.</span><span class="n">Decimal</span><span class="p">(</span><span class="mf">0.1</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>0.1000000000000000055511151231257827021181583404541015625
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">print60</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
-  <span class="nb">print</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="n">value</span><span class="p">,</span> <span class="s1">'.60f'</span><span class="p">))</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="n">one_plus_epsilon</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">nextafter</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span>
-<span class="n">epsilon</span> <span class="o">=</span> <span class="n">one_plus_epsilon</span> <span class="o">-</span> <span class="mi">1</span>
-
-<span class="n">print60</span><span class="p">(</span><span class="n">one_plus_epsilon</span><span class="p">)</span>
-<span class="n">print60</span><span class="p">(</span><span class="n">epsilon</span><span class="p">)</span>
-<span class="n">print60</span><span class="p">((</span><span class="mi">1</span> <span class="o">+</span> <span class="n">epsilon</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># Of course cannot find eps / 2 for &gt; 1, so evaluates to 0</span>
-<span class="n">print60</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="p">(</span><span class="n">epsilon</span> <span class="o">/</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span> <span class="c1"># Of course can find epsilon / 2 for &lt; 1, so evaluates to epsilon/2</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>1.000000000000000222044604925031308084726333618164062500000000
-0.000000000000000222044604925031308084726333618164062500000000
-0.000000000000000000000000000000000000000000000000000000000000
-0.000000000000000111022302462515654042363166809082031250000000
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-python"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">float_to_binary64</span><span class="p">(</span><span class="n">one_plus_epsilon</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">float_to_binary64</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">float_to_binary64</span><span class="p">(</span><span class="n">epsilon</span><span class="p">))</span>
-
-<span class="n">zero_plus_epsilon</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">nextafter</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">float_to_binary64</span><span class="p">(</span><span class="n">zero_plus_epsilon</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">float_to_binary64</span><span class="p">((</span><span class="mi">2</span><span class="o">**</span><span class="mi">1022</span><span class="p">)</span><span class="o">*</span><span class="n">zero_plus_epsilon</span><span class="p">))</span>
-
-<span class="c1"># Notice the exponent is 0111111111 = 1023, that's because we evaluate 2^(E - 1023).</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"========"</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">one_plus_epsilon</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">epsilon</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">zero_plus_epsilon</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">((</span><span class="mi">2</span><span class="o">**</span><span class="mi">1022</span><span class="p">)</span><span class="o">*</span><span class="n">zero_plus_epsilon</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>0011111111110000000000000000000000000000000000000000000000000001
-0011111111110000000000000000000000000000000000000000000000000000
-0011110010110000000000000000000000000000000000000000000000000000
-0000000000000000000000000000000000000000000000000000000000000001
-0011110010110000000000000000000000000000000000000000000000000000
-========
-1.0000000000000002
-1
-2.220446049250313e-16
-5e-324
-2.220446049250313e-16
-</pre>
-</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Solution-3">Solution 3<a class="anchor-link" href="#Solution-3">¶</a></h3><p>When near $x = 0$, we know $\cos x$ is near 1, so $\cos^2x$ is near 1 too. Hence, $1 - \cos^2x$ may have huge computation error compared to $\sin^2x$, where $\sin x$ is near 0. This results in more discrepancy of results in $f$.</p>
 </div>
 </div>
 </div>
